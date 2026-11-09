@@ -10,6 +10,10 @@
   },
   "homepage": "https://brandpilot.alvinsclub.ai/",
   "privacyPolicyUrl": "https://studio.alvinsclub.ai/privacy",
+  "termsOfServiceUrl": "https://studio.alvinsclub.ai/terms",
+  "supportUrl": "mailto:service@alvinsclub.ai",
+  "documentationUrl": "https://studio.alvinsclub.ai/brandpilot/mcp-guide",
+  "repository": "https://github.com/HEchooo/alvins-club-plugins",
   "license": "SEE LICENSE IN LICENSE",
   "icon": "./assets/icon.png",
   "keywords": [
