@@ -9,7 +9,17 @@
     "url": "https://brandpilot.alvinsclub.ai/"
   },
   "homepage": "https://brandpilot.alvinsclub.ai/",
+  "privacyPolicyUrl": "https://studio.alvinsclub.ai/privacy",
   "license": "SEE LICENSE IN LICENSE",
   "icon": "./assets/icon.png",
-  "keywords": ["social media", "content calendar", "content plan", "post scheduling", "linkedin", "tiktok", "instagram", "x"]
+  "keywords": [
+    "social media",
+    "content calendar",
+    "content plan",
+    "post scheduling",
+    "linkedin",
+    "tiktok",
+    "instagram",
+    "x"
+  ]
 }
