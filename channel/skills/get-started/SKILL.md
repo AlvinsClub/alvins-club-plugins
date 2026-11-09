@@ -36,8 +36,8 @@ automatic causal gains, model-weight learning or a multi-cycle result that has n
 
 For a commerce/content decision, reuse Insight internally through `get_channel_insight_sources` and
 `analyze_channel_business`. Choose explicit dates, market and timezone. This uses the merchant's
-server-managed commerce reporting scope, not social posting consent. ECN is internal infrastructure.
-Never ask users to log in to ECN, connect it, or provide its credentials. The server handles
+server-managed commerce reporting scope, not social posting consent. Report access is managed for
+the account: never ask users to log in to a report service, connect it, or provide credentials. The server handles
 authentication, renewal and account isolation. If reports are unavailable, explain that limitation
 and continue with the authorized sources available; never borrow another account's data.
 The report returns a saved snapshot ID, original video rows/nulls/rule signals and cited content
@@ -45,7 +45,7 @@ experiments. Keep report creators and posting accounts separate; do not automati
 every report video to the selected channel. Read all truncation and metric-window notes.
 Combine those experiments with owned Studio context and optional `review_channel_video`, then
 prepare one next-video brief with evidence, one creative variable, a baseline and a measurement plan.
-The default `include_ai=false` does not run ECN's metered diagnosis. Set it true only for an explicit
+The default `include_ai=false` does not run the metered diagnosis. Set it true only for an explicit
 diagnosis request. Reuse diagnosis_request_key for retries of that same approved diagnosis. If the result is unknown, do not invent a new key or dispatch another metered call; reconcile first, or obtain fresh approval for another diagnosis. That diagnosis rebuilds its report: equal data_as_of is not proof of identical data;
 unknown/different times must remain separate. Source rule advice is not a creative winner, ad approval,
 ROAS, profit or a best posting time. Existing platform analysis supplies separate timing evidence.
