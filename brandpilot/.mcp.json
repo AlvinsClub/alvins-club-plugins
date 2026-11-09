@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "brandpilot": {
+      "type": "http",
+      "url": "https://studio.alvinsclub.ai/brandpilot/mcp"
+    }
+  }
+}
