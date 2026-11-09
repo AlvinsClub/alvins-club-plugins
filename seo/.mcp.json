@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "seo": {
+      "type": "http",
+      "url": "https://studio.alvinsclub.ai/seo/mcp"
+    }
+  }
+}

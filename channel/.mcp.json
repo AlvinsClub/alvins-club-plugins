@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "alvins-club-channel": {
+      "type": "http",
+      "url": "https://studio.alvinsclub.ai/channel/mcp"
+    }
+  }
+}
