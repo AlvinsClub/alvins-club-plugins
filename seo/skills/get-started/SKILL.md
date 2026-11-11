@@ -1,6 +1,6 @@
 ---
 name: seo-geo-get-started
-description: Check how the user's own website appears in Google Search and AI answers with SEO & GEO by Alvin's Club. Run an SEO audit with an AI visibility check, and read Search Console reports, keyword opportunities, page audits and article draft approval for connected websites; nothing is published without the user's approval.
+description: Check how the user's own website appears in Google Search and AI answers with SEO & GEO by Alvin's Club. Run an SEO audit with an AI visibility check, and read Search Console reports, keyword opportunities, page audits and article draft approval and Shopify product SEO fixes for connected websites; nothing changes without the user's approval.
 ---
 
 Use SEO & GEO by Alvin's Club when the user wants to know how their own website shows up in Google Search or in
@@ -15,7 +15,7 @@ First run (a new user, or whenever you are unsure what to do next)
    on the Alvin's Club website. When they are returned, report them question by question.
 4. Then call `list_my_websites`. If a website is connected, offer its search report and keyword opportunities.
    If none is, say that Search Console data needs the website connected: call `connect_search_console` and give
-   its link (Google's consent needs a browser), then continue here when the user says done. The website check
+   its one-time sign-in link (Google's consent needs a browser), then continue here when the user says done. The website check
    works without it.
 
 What the tools do
@@ -36,6 +36,10 @@ What the tools do
 - `approve_article` approves one draft, only after the user approves that exact draft; pass its `draft_id` and
   `fingerprint`. The blog publishes it on its next run. A draft that changed is not approved: show it again.
 - `set_publishing` turns automatic work and publishing without review on or off, after the user confirms.
+- `list_shopify_stores` and `check_shopify_products` read a connected Shopify store's product SEO: recent fixes,
+  and which products miss a search title or description and what would be filled in. They change nothing.
+- `set_shopify_product_fixes` (automatic fixes on or off) and `undo_shopify_product_fix` (one product back to its
+  before text) change the store: pass `user_confirmed=true` only after the user clearly agrees.
 
 Article briefs
 - When asked, draft one brief or outline in the chat for one real query from `get_keyword_opportunities`:
