@@ -1,8 +1,8 @@
 {
   "name": "alvins-club-seo",
   "displayName": "SEO & GEO by Alvin's Club",
-  "version": "1.0.0",
-  "description": "Check how your website shows up in Google Search and AI answers: an SEO audit with an AI visibility check, plus Search Console reports, keyword opportunities and page audits. Start by saying: Check my website's SEO and AI visibility.",
+  "version": "1.1.0",
+  "description": "Check how your website shows up in Google Search and AI answers: an SEO audit with an AI visibility check, plus Search Console reports, keyword opportunities, page audits and article draft approval. Start by saying: Check my website's SEO and AI visibility.",
   "author": {
     "name": "FUTUREVERSE TECHNOLOGIES LLC",
     "email": "service@alvinsclub.ai",
