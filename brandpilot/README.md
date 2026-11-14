@@ -4,7 +4,8 @@ Plan and run social media content for yourself or your brand across X, LinkedIn,
 and Hashnode from one brief, right in Claude.
 
 Start by saying: "Draft a week of posts for my brand with BrandPilot." Give your website or the social profile you
-post from. BrandPilot drafts your brief, shows example posts written for you, then helps you connect your accounts,
+post from: in one step BrandPilot reads it, drafts your brand card (marking what came from your page and what is a
+guess) and shows example posts written for you. Not ready? Ask to see an example first. Then it helps you connect your accounts,
 approve posts and choose how they publish, all in the chat.
 
 ## Install
@@ -33,7 +34,7 @@ Tool calls send what the request needs to BrandPilot's hosted service: the brief
 profile link, audience, goals), the platforms you choose to connect, edits to draft posts, the posts you approve,
 the publishing mode you choose and report requests.
 Connecting a social account happens on that platform's own consent page through a one-time link. Posts publish
-according to the publishing mode you choose (automatic by default, after your review, or a week at a time).
+according to the publishing mode you choose (a new workspace reviews every post in the chat; you can switch to weekly approval or automatic publishing).
 
 - Documentation: https://studio.alvinsclub.ai/brandpilot/mcp-guide
 - Privacy policy: https://studio.alvinsclub.ai/privacy

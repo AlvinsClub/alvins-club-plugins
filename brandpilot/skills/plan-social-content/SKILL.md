@@ -17,15 +17,24 @@ installed without its connector. Tell the user to add the hosted BrandPilot MCP 
 
 First run
 1. Call `get_workspace`. If the result has `next_step`, follow it.
-2. No brief yet: ask for one thing, a link to what they already have (their website or the main social profile they
-   post from). Draft the brief yourself from it (name, goal, what the posts should do, positioning, audience), show
-   it in a few lines and call `save_brief` once the user confirms.
-3. Right after saving, call `create_plan`. With no account connected it returns a preview plan: example posts written
-   for them that never publish. Show two or three of them.
-4. Then ask which platforms to use, call `connect_account` for each and give the user the one-time link. When they
+2. No brief yet: open with one short question and nothing else. Ask for a link to their website or the main social
+   profile they post from (Instagram, TikTok, YouTube, X or LinkedIn), or offer to show an example first. Do not ask
+   for their name, offer, audience or goal.
+   - Example first: show `next_step.sample_preview`, saying plainly it is a sample for a made-up brand, not written
+     for them. Then ask for their link.
+   - With a link: call `save_brief` with `link` (and what they said about themselves as `about`). That one call reads
+     the page, saves a brand card as the brief and returns example posts for three platforms (never published). Show
+     the card in a few lines, saying which details came from their page or their words and which are guesses, show
+     the posts, and ask "Anything to change?". Save corrections with `save_brief` and the full brief. If
+     `preview.status` is `pending`, read `get_workspace` again in about a minute instead of calling `create_plan`.
+   - If they describe themselves instead, draft the brief yourself, show it and call `save_brief` once they confirm;
+     then call `create_plan` for the preview plan and show two or three of its posts.
+3. Then ask which platforms to use, call `connect_account` for each and give the user the one-time link. When they
    say done, read the workspace again and say which accounts are actually connected.
-5. Before a real plan, tell the user the publishing mode (automatic by default, or manual / weekly approval), get
-   their confirmation, then call `create_plan`.
+4. A new workspace reviews every post here in the chat (manual mode). Before a real plan, tell the user the publishing
+   mode, get their confirmation, then call `create_plan`.
+5. When `next_step` offers automatic publishing (after several posts went out without edits), ask once; switch with
+   `set_publishing_mode` only on a clear yes.
 6. Show the plan's posts. When the user accepts the plan, call `approve_plan`; approve the posts they said yes to
    with `approve_posts`, each with the `content_hash` they saw. `set_publishing_mode` switches modes; automatic only
    after the user confirms posts will go out without further review.
