@@ -7,6 +7,17 @@ Start by saying: "Draft a week of posts for my brand with BrandPilot." Give your
 post from. BrandPilot drafts your brief, shows example posts written for you, then helps you connect your accounts,
 approve posts and choose how they publish, all in the chat.
 
+## Install
+
+Claude Code:
+
+```bash
+/plugin install brandpilot --marketplace AlvinsClub/alvins-club-plugins
+```
+
+Gemini CLI, Cursor, Qwen Code, `npx skills` and other MCP clients: see the
+[repository README](https://github.com/AlvinsClub/alvins-club-plugins#install-brandpilot).
+
 ## What is in this plugin
 
 - `.mcp.json`: the remote BrandPilot connector, https://studio.alvinsclub.ai/brandpilot/mcp (OAuth sign-in on

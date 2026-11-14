@@ -4,6 +4,14 @@ Check how your website shows up in Google Search and AI answers, right in Claude
 website's SEO and AI visibility." Article drafts are approved in the chat only when you approve them; nothing
 edits your website directly.
 
+## Install
+
+Claude Code:
+
+```bash
+/plugin install alvins-club-seo --marketplace AlvinsClub/alvins-club-plugins
+```
+
 ## What is in this plugin
 
 - `.mcp.json`: the remote SEO & GEO connector, https://studio.alvinsclub.ai/seo/mcp (OAuth sign-in on

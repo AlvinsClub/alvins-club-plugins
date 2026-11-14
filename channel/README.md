@@ -3,6 +3,14 @@
 Decide what to post next from your own results, then publish with your approval: TikTok, Instagram, YouTube Shorts,
 X, LinkedIn and Pinterest, right in Claude. Start by saying: "Connect my social accounts in Alvin's Club Channel."
 
+## Install
+
+Claude Code:
+
+```bash
+/plugin install alvins-club-channel --marketplace AlvinsClub/alvins-club-plugins
+```
+
 ## What is in this plugin
 
 - `.mcp.json`: the remote Channel connector, https://studio.alvinsclub.ai/channel/mcp (OAuth sign-in on

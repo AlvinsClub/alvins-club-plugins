@@ -7,6 +7,14 @@ Use the bundled BrandPilot connector. If it is not connected, ask the user to co
 Connectors tab; sign-in happens on studio.alvinsclub.ai, never in chat. BrandPilot works for a person running their
 own accounts as much as for a company.
 
+If the BrandPilot tools (`get_workspace`, `save_brief`, `create_plan`, ...) are not available at all, this skill was
+installed without its connector. Tell the user to add the hosted BrandPilot MCP server,
+`https://studio.alvinsclub.ai/brandpilot/mcp` (streamable HTTP, OAuth sign-in, no token), and continue once it is added:
+- Claude Code: `claude mcp add --transport http brandpilot https://studio.alvinsclub.ai/brandpilot/mcp`, then `/mcp`
+  to sign in.
+- Claude or ChatGPT: add BrandPilot from the app's connector directory.
+- Other MCP clients: add the URL as a remote (HTTP) MCP server and sign in when asked.
+
 First run
 1. Call `get_workspace`. If the result has `next_step`, follow it.
 2. No brief yet: ask for one thing, a link to what they already have (their website or the main social profile they
