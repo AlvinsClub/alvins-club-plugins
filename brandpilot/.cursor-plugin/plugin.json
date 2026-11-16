@@ -1,12 +1,12 @@
 {
   "name": "brandpilot",
-  "version": "1.4.0",
-  "description": "BrandPilot by Alvin's Club, an AI social media manager: plans, drafts and publishes posts for a person or a brand across X, LinkedIn, TikTok, YouTube Shorts, Instagram and Hashnode from one brief, with your approval. Bundles the plan-social-content skill and the hosted BrandPilot MCP server (OAuth sign-in on studio.alvinsclub.ai).",
+  "version": "1.4.1",
+  "description": "Social by Alvin's Club, an AI social media manager: plans, drafts and publishes posts for a person or a brand across X, LinkedIn, TikTok, YouTube Shorts, Instagram and Hashnode from one brief, with your approval. Bundles the plan-social-content skill and the hosted Social MCP server (OAuth sign-in on studio.alvinsclub.ai).",
   "author": {
     "name": "FUTUREVERSE TECHNOLOGIES LLC",
     "email": "service@alvinsclub.ai"
   },
-  "homepage": "https://brandpilot.alvinsclub.ai/",
+  "homepage": "https://social.alvinsclub.ai/",
   "repository": "https://github.com/AlvinsClub/alvins-club-plugins",
   "license": "SEE LICENSE IN LICENSE",
   "logo": "assets/icon.png",

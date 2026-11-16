@@ -1,14 +1,14 @@
 {
   "name": "brandpilot",
-  "displayName": "BrandPilot by Alvin's Club",
-  "version": "1.4.0",
-  "description": "Plan and run social media content for yourself or your brand across X, LinkedIn, TikTok, YouTube Shorts, Instagram and Hashnode from one brief, right in Claude. Start by saying: Set up my brand in BrandPilot.",
+  "displayName": "Social by Alvin's Club",
+  "version": "1.4.1",
+  "description": "Plan and run social media content for yourself or your brand across X, LinkedIn, TikTok, YouTube Shorts, Instagram and Hashnode from one brief, right in Claude. Start by saying: Set up my brand in Social.",
   "author": {
     "name": "FUTUREVERSE TECHNOLOGIES LLC",
     "email": "service@alvinsclub.ai",
-    "url": "https://brandpilot.alvinsclub.ai/"
+    "url": "https://social.alvinsclub.ai/"
   },
-  "homepage": "https://brandpilot.alvinsclub.ai/",
+  "homepage": "https://social.alvinsclub.ai/",
   "privacyPolicyUrl": "https://studio.alvinsclub.ai/privacy",
   "termsOfServiceUrl": "https://studio.alvinsclub.ai/terms",
   "supportUrl": "mailto:service@alvinsclub.ai",

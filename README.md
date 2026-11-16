@@ -3,19 +3,19 @@
 Plugin bundles for Claude, Claude Code, Cursor, Gemini CLI and other agents. Each folder holds one plugin: manifest,
 README, license, icon, the remote MCP connector URL and skills. No service code lives here.
 
-- `brandpilot/`: BrandPilot, an AI social media manager that runs inside ChatGPT and Claude: plans, drafts and
+- `brandpilot/`: Social, an AI social media manager that runs inside ChatGPT and Claude: plans, drafts and
   publishes posts for a person or a brand.
 - `channel/`: Alvin's Club Channel, analyze results, draft captions and publish with approval.
 - `seo/`: SEO & GEO by Alvin's Club, SEO audit and AI visibility for your website.
 
-## Install BrandPilot
+## Install Social
 
-BrandPilot is a hosted MCP server, `https://studio.alvinsclub.ai/brandpilot/mcp` (streamable HTTP). It signs in with
+Social is a hosted MCP server, `https://studio.alvinsclub.ai/brandpilot/mcp` (streamable HTTP). It signs in with
 OAuth on studio.alvinsclub.ai the first time it is used: no API key, token or local install.
 
 ### Claude and ChatGPT
 
-Add BrandPilot from the app's connector directory, or see https://brandpilot.alvinsclub.ai/.
+Add Social from the app's connector directory, or see https://social.alvinsclub.ai/.
 
 ### Claude Code plugin
 
@@ -40,7 +40,7 @@ npx skills add AlvinsClub/alvins-club-plugins --skill plan-social-content
 ```
 
 This installs the `plan-social-content` skill into your agent. Add the hosted MCP server above as well: the skill
-tells the agent how if the BrandPilot tools are missing.
+tells the agent how if the Social tools are missing.
 
 ### Gemini CLI extension
 
@@ -48,7 +48,7 @@ tells the agent how if the BrandPilot tools are missing.
 gemini extensions install https://github.com/AlvinsClub/alvins-club-plugins
 ```
 
-The extension (`gemini-extension.json`) adds the hosted BrandPilot MCP server and the BrandPilot instructions.
+The extension (`gemini-extension.json`) adds the hosted Social MCP server and the Social instructions.
 Gemini CLI opens a browser to sign in on first use; run `/mcp auth brandpilot` to sign in again.
 
 ### Qwen Code
@@ -69,7 +69,7 @@ git clone https://github.com/AlvinsClub/alvins-club-plugins.git
 ln -s "$(pwd)/alvins-club-plugins/brandpilot" ~/.cursor/plugins/local/brandpilot
 ```
 
-Then reload the Cursor window and sign in to BrandPilot from Cursor's MCP settings.
+Then reload the Cursor window and sign in to Social from Cursor's MCP settings.
 
 ### Any other MCP client
 

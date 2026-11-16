@@ -1,6 +1,6 @@
 {
   "name": "alvins-club",
-  "description": "Alvin's Club plugins: BrandPilot (AI social media manager), Channel and SEO & GEO. Each plugin bundles a skill and a hosted MCP connector with OAuth sign-in.",
+  "description": "Alvin's Club plugins: Social (AI social media manager), Channel and SEO & GEO. Each plugin bundles a skill and a hosted MCP connector with OAuth sign-in.",
   "owner": {
     "name": "FUTUREVERSE TECHNOLOGIES LLC",
     "email": "service@alvinsclub.ai"
@@ -9,7 +9,7 @@
     {
       "name": "brandpilot",
       "source": "./brandpilot",
-      "description": "BrandPilot: AI social media manager. Plans, drafts and publishes posts for a person or a brand across X, LinkedIn, TikTok, YouTube Shorts, Instagram and Hashnode from one brief.",
+      "description": "Social: AI social media manager. Plans, drafts and publishes posts for a person or a brand across X, LinkedIn, TikTok, YouTube Shorts, Instagram and Hashnode from one brief.",
       "category": "productivity"
     },
     {

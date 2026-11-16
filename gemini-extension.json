@@ -1,12 +1,12 @@
 {
   "name": "brandpilot",
-  "version": "1.4.0",
-  "description": "BrandPilot by Alvin's Club, an AI social media manager: plans, drafts and publishes posts for a person or a brand across X, LinkedIn, TikTok, YouTube Shorts, Instagram and Hashnode from one brief, with your approval. Bundles the plan-social-content skill and the hosted BrandPilot MCP server (OAuth sign-in on studio.alvinsclub.ai).",
+  "version": "1.4.1",
+  "description": "Social by Alvin's Club, an AI social media manager: plans, drafts and publishes posts for a person or a brand across X, LinkedIn, TikTok, YouTube Shorts, Instagram and Hashnode from one brief, with your approval. Bundles the plan-social-content skill and the hosted Social MCP server (OAuth sign-in on studio.alvinsclub.ai).",
   "mcpServers": {
     "brandpilot": {
       "type": "http",
       "url": "https://studio.alvinsclub.ai/brandpilot/mcp",
-      "description": "BrandPilot hosted MCP server (streamable HTTP). Signs in with OAuth on first use: Gemini CLI opens studio.alvinsclub.ai in your browser; run /mcp auth brandpilot to sign in again. No token or local install."
+      "description": "Social hosted MCP server (streamable HTTP). Signs in with OAuth on first use: Gemini CLI opens studio.alvinsclub.ai in your browser; run /mcp auth brandpilot to sign in again. No token or local install."
     }
   },
   "contextFileName": "brandpilot/skills/plan-social-content/SKILL.md"

@@ -1,10 +1,10 @@
-# BrandPilot by Alvin's Club
+# Social by Alvin's Club
 
 Plan and run social media content for yourself or your brand across X, LinkedIn, TikTok, YouTube Shorts, Instagram
 and Hashnode from one brief, right in Claude.
 
-Start by saying: "Draft a week of posts for my brand with BrandPilot." Give your website or the social profile you
-post from: in one step BrandPilot reads it, drafts your brand card (marking what came from your page and what is a
+Start by saying: "Draft a week of posts for my brand with Social." Give your website or the social profile you
+post from: in one step Social reads it, drafts your brand card (marking what came from your page and what is a
 guess) and shows example posts written for you. Not ready? Ask to see an example first. Then it helps you connect your accounts,
 approve posts and choose how they publish, all in the chat.
 
@@ -21,7 +21,7 @@ Gemini CLI, Cursor, Qwen Code, `npx skills` and other MCP clients: see the
 
 ## What is in this plugin
 
-- `.mcp.json`: the remote BrandPilot connector, https://studio.alvinsclub.ai/brandpilot/mcp (OAuth sign-in on
+- `.mcp.json`: the remote Social connector, https://studio.alvinsclub.ai/brandpilot/mcp (OAuth sign-in on
   studio.alvinsclub.ai; you can connect first and add your email later).
 - `skills/plan-social-content`: how Claude runs the first setup and everyday requests.
 
@@ -30,7 +30,7 @@ package launchers, and no credentials.
 
 ## Data it sends
 
-Tool calls send what the request needs to BrandPilot's hosted service: the brief you approve (name, website or
+Tool calls send what the request needs to Social's hosted service: the brief you approve (name, website or
 profile link, audience, goals), the platforms you choose to connect, edits to draft posts, the posts you approve,
 the publishing mode you choose and report requests.
 Connecting a social account happens on that platform's own consent page through a one-time link. Posts publish

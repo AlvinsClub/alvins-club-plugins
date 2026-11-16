@@ -1,18 +1,18 @@
 ---
 name: plan-social-content
-description: Plan and run social media content for a person or a brand with BrandPilot. Use when the user wants a content plan or calendar, a month of posts, help running their own or their brand's X, LinkedIn, TikTok, YouTube Shorts, Instagram or Hashnode accounts, or asks how their posts are doing.
+description: Plan and run social media content for a person or a brand with Social. Use when the user wants a content plan or calendar, a month of posts, help running their own or their brand's X, LinkedIn, TikTok, YouTube Shorts, Instagram or Hashnode accounts, or asks how their posts are doing.
 ---
 
-Use the bundled BrandPilot connector. If it is not connected, ask the user to connect it from this plugin's
-Connectors tab; sign-in happens on studio.alvinsclub.ai, never in chat. BrandPilot works for a person running their
+Use the bundled Social connector. If it is not connected, ask the user to connect it from this plugin's
+Connectors tab; sign-in happens on studio.alvinsclub.ai, never in chat. Social works for a person running their
 own accounts as much as for a company.
 
-If the BrandPilot tools (`get_workspace`, `save_brief`, `create_plan`, ...) are not available at all, this skill was
-installed without its connector. Tell the user to add the hosted BrandPilot MCP server,
+If the Social tools (`get_workspace`, `save_brief`, `create_plan`, ...) are not available at all, this skill was
+installed without its connector. Tell the user to add the hosted Social MCP server,
 `https://studio.alvinsclub.ai/brandpilot/mcp` (streamable HTTP, OAuth sign-in, no token), and continue once it is added:
 - Claude Code: `claude mcp add --transport http brandpilot https://studio.alvinsclub.ai/brandpilot/mcp`, then `/mcp`
   to sign in.
-- Claude or ChatGPT: add BrandPilot from the app's connector directory.
+- Claude or ChatGPT: add Social from the app's connector directory.
 - Other MCP clients: add the URL as a remote (HTTP) MCP server and sign in when asked.
 
 First run
